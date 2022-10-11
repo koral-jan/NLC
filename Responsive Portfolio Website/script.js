@@ -31,6 +31,7 @@ $(document).ready(function(){
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
+        $('html').css("scrollBehavior", "smooth");
     });
 
     // typing text animation script
